@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+    <!ELEMENT root (slides)>
+    <!ELEMENT course (course_name)>
+    <!ELEMENT course_name (#PCDATA) >
+    <!ELEMENT slides (slide)>
+    <!ELEMENT slide (thumb_image, content, footer)>
+    <!ELEMENT thumb_image (#PCDATA)>
+    <!ELEMENT content (#PCDATA)>
+    <!ELEMENT footer (#PCDATA)>
+    <!ATTLIST slide id ID #REQUIRED>
+    <!ATTLIST slide animated CDATA #REQUIRED>
+]>
+<root>
+    <course>
+        <course_name><![CDATA[<div class="col-sm-5 qc-title">Quality Assurance/Quality Control Course Lesson 1: Safety Management System (SMS)</div>]]></course_name>
+    </course>
+    <slides>
+        <slide id="1" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide1.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <h2>Quality Assurance / Quality Control Course</h2>
+            <p class="green"><strong>(50314001)</strong></p>
+            <p class="grey text-30"><strong>Course Overview and Safety Management System (SMS)</strong></p>
+            <p class="green">Presented to: Facility QC,HQ, and SA QA/QC Managers and Staff<br />By: ATO Safety and Technical Training</p>
+          </div>
+          <div class="col-sm-5 text-right">
+            <img src="media/title-slide.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      ]]>
+        </content>
+        <footer><![CDATA[]]></footer>
+    </slide>
+    <slide id="2" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide2.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="section-header">Course Overview</h2>
+          </div>
+        </div>
+      </div>
+      ]]>
+        </content>
+        <footer>
+            <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <!--
+    <slide id="4" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide4.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Course Objectives</h2>
+            <p>At the end of this course, you will be able to:</p>
+            <ul>
+              <li>Identify Quality Assurance (QA) and Quality Control (QC) processes, effective QC activities, and the key aspects of the ATO Safety Management System</li>
+              <li>Correctly use QC tools in accordance with associated performance checklists</li>
+            </ul>
+          </div>
+        </div>
+      </div>]]>
+        </content>
+        <footer>
+            <![CDATA[
+            <div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="http://infinasamples.com/demos/qc/sg-l1.pdf#page=4"><img src="media/sg.png" alt="SG Logo"/></a></div>
+            ]]>
+        </footer>
+    </slide>
+    <slide id="5" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide5.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>Course Lessons</h2>
+                <p>Lesson Instruction</p>
+                  <ol>
+                    <li>Safety Management System (SMS)</li>
+                    <li>Quality Assurance Fundamentals</li>
+                    <li>Quality Control General Knowledge</li>
+                    <li>Ensuring Compliance - Tools</li>
+                    <li>Ensuring Compliance - Process</li>
+                    <li>Responding to Data Requests</li>
+                    <li>Handling of Accidents and Occurrence</li>
+                    <li>Initial Event Response</li>
+                  </ol>
+                <p>End-of-Course QC Process Excercise</p>
+                <p>End-of-Course Test (ECT)</p>     
+              </div>
+            </div>
+          </div>
+            ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="6" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide6.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>Course Schedule</h2>  
+                <div class="row"> 
+                  <div class="col-sm-6 col-sm-offset-1" align="center">
+                    <img src="media/schedule1.png" width="360" height="auto" />
+                  </div> 
+                  <div class="col-sm-5" align="center">
+                    <img src="media/schedule2.png" width="240" height="auto" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="7" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide7.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>End-of-Course Exercise</h2>
+                <ul>
+                  <li>2 hour open-book performance exercise</li>
+                  <li>Given a scenario, you will use the knowledge and skills acquired in this course to correctly enter findings and mitigations into the appropriate QC tools</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="8" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide8.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>End-of-Course Test</h2>
+                  <ul>
+                    <li>1 hour open-book multiple choice</li>
+                    <li>Scoring:
+                      <ul>
+                        <li>90% or higher - Satisfactory</li>
+                        <li>70-89% - Needs Improvement</li>
+                        <li>Below 70% - Unsatisfactory</li>
+                      </ul>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+            ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="9" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide9.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="section-header">Course Pre-test</h2>
+                  </div>
+                </div>
+            </div>
+            ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="10" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide10.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="section-header">Lesson 1: Safety Management System</h2>
+              </div>
+            </div>
+            </div>
+            ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="11" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide11.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12" align="center">
+                <h2>The Wright Brothers Were Right</h2>
+                  <img src="media/wright_bros.jpg" width="550" height="auto"  />
+              </div>
+            </div>
+          </div>]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    <slide id="12" animated="no">
+        <thumb_image><![CDATA[media/slides/th/slide12.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>Lesson 1 Objectives</h2>
+                <p>At the end of this lesson, you will be able to use FAA Safety Management System (SMS) orders an the SMS manual to:</p>
+                  <ul>
+                    <li>Identify definition, benefits, and components of the ATO Safety's SMS</li>
+                    <li>List the four types of processes in a proactive safety system</li>
+                    <li>Identify the order and requirement that applies to an SMS topic</li>
+                  </ul>
+              </div>
+            </div>
+          </div>]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    -->
+    <slide id="13" animated="yes">
+        <thumb_image><![CDATA[media/slides/th/slide13.jpg]]></thumb_image>
+        <content>
+            <![CDATA[<div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <strong>Animated slide!</strong> Press "a" to animate x 2
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="text-center" >
+            <h2>Safety Culture "Then and Now"</h2>
+            <img src="media/then.png" class="anim_element" width="960" height="auto" style="position: absolute;top: 0%; left:0%;"/>
+            <img src="media/now.png" class="anim_element" width="960" height="auto" style="position: absolute;top: 0%; left:0%;"/>
+          </div>
+        </div>
+      </div>
+      ]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    
+    <!-- sample -->
+    <!--
+    <slide id="xx" animated="yes|no">
+        <thumb_image><![CDATA[media/slides/th/slideXX.jpg]]></thumb_image>
+        <content>
+            <![CDATA[Lorem Ipsum]]>
+        </content>
+         <footer>
+             <![CDATA[<div class="col-sm-3 qc-faa-logo"><img src="media/faa-logo.png" alt="FAA Logo"/></div>
+            <div class="col-sm-1 qc-sg-logo"><a href="media/sg-l1.pdf"><img src="media/sg.png" alt="SG Logo"/></a></div>]]>
+        </footer>
+    </slide>
+    -->
+    <!-- end of sample -->
+    </slides>
+</root>
